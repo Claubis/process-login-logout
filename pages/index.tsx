@@ -26,6 +26,9 @@ const LoginPage : React.FC = () => {
         } 
     }
 
+    // Eu preciso criar um if para validar o tipo de erro, se for 1 por exemplo, usuário não logado, se 
+    // for dois, forçou logar e não inseriu os dados.
+
     return(
 
         <main>
